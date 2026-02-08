@@ -17,9 +17,10 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <meta
       name="description"
-      content="Agency template made with ASTROJS and TAILWINDCSS"
+      content="Assistência técnica especializada em celulares e desenvolvimento de sites e sistemas. Conserto rápido, transparência no serviço e soluções digitais sob medida."
     />
-    <title>Agency template - {title}</title>
+
+    <title>{title}</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -35,7 +36,7 @@ const { title } = Astro.props;
     detectSystemTheme();
 
     const switchTheme = document.querySelector(
-      "[data-switch-theme]"
+      "[data-switch-theme]",
     ) as HTMLButtonElement;
     switchTheme.addEventListener("click", (e) => {
       e.preventDefault();
@@ -85,11 +86,11 @@ const { title } = Astro.props;
   </script>
   <script>
     const toggleMenu = document.querySelector(
-      "[data-toggle-nav]"
+      "[data-toggle-nav]",
     ) as HTMLButtonElement;
     const navbar = document.querySelector("[data-navbar]") as HTMLDivElement;
     const overlayNav = document.querySelector(
-      "[data-nav-overlay]"
+      "[data-nav-overlay]",
     ) as HTMLDivElement;
     if (toggleMenu) {
       toggleMenu.addEventListener("click", (e) => {
