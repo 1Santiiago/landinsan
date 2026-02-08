@@ -12,7 +12,7 @@ type SolutionsProps = {
   painPoint: string;
   agitatepainPoint: string;
   solution: string;
-  img: ImageMetadata;
+  img: any;
 };
 
 export interface Props {
@@ -24,7 +24,7 @@ const { className } = Astro.props;
 
 <section id="solutions" class=`flex flex-col ${className}`>
   {
-    solutions.map((solution: SolutionsProps, index: number) => {
+    solutions.map((solution: SolutionsProps, index: any) => {
       const oddIndex = index % 2 === 0;
       const flexRow = oddIndex ? "midmd:flex-row-reverse" : "midmd:flex-row";
       const bgColor = oddIndex

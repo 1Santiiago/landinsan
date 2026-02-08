@@ -1,7 +1,12 @@
 ---
 import Button from "./Button.astro";
+const WHATSAPP_LINK =
+  "https://wa.me/5521965385878?text=Olá!%20Vi%20seu%20trabalho%20e%20tenho%20interesse%20em%20desenvolvimento%20de%20sites%20ou%20assistência%20técnica.%20Podemos%20conversar?";
 ---
 
 <Button variant={"primary"} className={"min-w-max text-white"}>
-  <span class="flex relative z-[5] text-center"> Get Started Today</span>
+  <a href={WHATSAPP_LINK}>
+    <span class="flex relative z-[5] text-center">Falar no WhatsApp agora</span
+    ></a
+  >
 </Button>
