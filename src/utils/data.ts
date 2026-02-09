@@ -64,7 +64,7 @@ const solutions = [
       "Ficar dias sem resposta, sem prazo e sem transparência só aumenta a frustração e a insegurança sobre o serviço.",
     solution:
       "Aqui você recebe diagnóstico claro, acompanhamento da manutenção e fotos do processo. Você sabe o que está sendo feito e quando seu celular estará pronto.",
-    img: "/public/a.jpg",
+    img: "/a.jpg",
   },
   {
     title: "💻 DESENVOLVIMENTO WEB",
@@ -74,7 +74,7 @@ const solutions = [
       "Projetos mal feitos geram prejuízo, retrabalho e perda de tempo. Tecnologia deveria ajudar, não complicar.",
     solution:
       "Desenvolvo sites e sistemas simples, funcionais e feitos para resolver o problema real. Você acompanha o desenvolvimento e recebe algo que realmente funciona.",
-    img: "/public/b.jpg",
+    img: "/b.jpg",
   },
   {
     title: "🚀 TECNOLOGIA QUE FUNCIONA",
@@ -84,7 +84,7 @@ const solutions = [
       "Quando a tecnologia não resolve, ela vira mais um problema no dia a dia.",
     solution:
       "Meu foco é entregar soluções práticas, objetivas e funcionais, seja no conserto do celular ou no desenvolvimento digital.",
-    img: "/public/c.jpg",
+    img: "/c.jpg",
   },
 ];
 
